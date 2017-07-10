@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "bitcoin": "^3.0.1",
-    "lowdb": "^0.16.2"
+    "connect": "^3.6.2",
+    "lowdb": "^0.16.2",
+    "serve-static": "^1.12.3"
   },
   "devDependencies": {},
   "scripts": {
