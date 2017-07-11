@@ -41,6 +41,10 @@ Two tools are included in this repository: **monitor** and **audit**.
 
 `audit.js` scans the database built by `monitor.js` (`bitmark.json`) and audits it for any anomalies like those mentioned above (*eg.* multiple valid blocks for any block height.)
 
+### Visualization
+
+`serve.js` serves a visualization at `localhost` on port 80
+
 ### Notes
 
 Monitoring began on 2017/07/07 at block height 286441.  `bitmark.json.bootstrap` is a log file created up to height 287571.  I (sneurlax) will work on uploading a canonical version of `bitmark.json` somewhere accessible "soon."
